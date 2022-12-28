@@ -18,7 +18,8 @@ discovery service就好像一个map，
 **注意⚠️**
 
 如果在discovery service已经shutdown的情况下restart了inventory service，
-Client's local cop也不会跟着新的inventory service直到discovery service重启
+Client's local copy也不会有新的inventory service的地点，
+直到discovery service重启
 ![local-copy](local-copy.png)
 ![communication-service-discovery](communication-service-discovery.png)
 ![service-discovery](service-discovery.png)
