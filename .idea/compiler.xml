@@ -16,11 +16,12 @@
       <module name="inventory-service" target="17" />
       <module name="order-service" target="19" />
       <module name="product-service" target="19" />
-      <module name="Spring_Boot_Microservice" target="17" />
+      <module name="Spring_Boot_Microservice" target="16" />
     </bytecodeTargetLevel>
   </component>
   <component name="JavacSettings">
     <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="Spring_Boot_Microservice" options="-parameters" />
       <module name="inventory-service" options="-parameters" />
       <module name="order-service" options="-parameters" />
       <module name="product-service" options="-parameters" />
