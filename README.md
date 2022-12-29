@@ -23,3 +23,6 @@ Client's local copy也不会有新的inventory service的地点，
 ![local-copy](local-copy.png)
 ![communication-service-discovery](communication-service-discovery.png)
 ![service-discovery](service-discovery.png)
+
+![api_gateway.png](api_gateway.png)
+![traditional.png](traditional.png)
