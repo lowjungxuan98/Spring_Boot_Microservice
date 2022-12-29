@@ -24,5 +24,10 @@ Client's local copy也不会有新的inventory service的地点，
 ![communication-service-discovery](communication-service-discovery.png)
 ![service-discovery](service-discovery.png)
 
-![api_gateway.png](api_gateway.png)
-![traditional.png](traditional.png)
+## API Gateway
+API Gateway帮助所有的module统一了所有的path
+
+正常情况下我们call api需要以指定的Path来读取指定的module
+![traditional](traditional.png)
+API Gateway为了简化和improve前端开发，API将所有的module统一化
+![api_gateway](api_gateway.png)
