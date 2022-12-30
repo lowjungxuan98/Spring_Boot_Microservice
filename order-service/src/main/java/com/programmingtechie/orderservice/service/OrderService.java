@@ -22,7 +22,7 @@ public class OrderService {
     private final OrderRepository orderRepository;
     private final WebClient.Builder webClientBuilder;
 
-    public void placeOrder(OrderRequest orderRequest) {
+    public String placeOrder(OrderRequest orderRequest) {
         Order order = new Order();
         order.setOrderNumber(UUID.randomUUID().toString());
 
@@ -41,7 +41,7 @@ public class OrderService {
         // Call Inventory Service, and place order if product is in stock
         // Inter Process Communication
         InventoryResponse[] inventoryResponses = webClientBuilder.build().get()
-                .uri("http://inventory-service/api/inventory",uriBuilder -> uriBuilder.queryParam("skuCode",skuCodes).build())
+                .uri("http://inventory-service/api/inventory", uriBuilder -> uriBuilder.queryParam("skuCode", skuCodes).build())
                 .retrieve()
                 .bodyToMono(InventoryResponse[].class)
                 .block();
@@ -49,6 +49,7 @@ public class OrderService {
         boolean allProductsInStock = Arrays.stream(inventoryResponses).allMatch(InventoryResponse::isInStock);
         if (allProductsInStock) {
             orderRepository.save(order);
+            return "Order Placed Successfully";
         } else {
             throw new IllegalArgumentException("Product is not in stock, please try again later");
         }
