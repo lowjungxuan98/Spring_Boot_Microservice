@@ -10,7 +10,6 @@ import org.springframework.security.crypto.password.NoOpPasswordEncoder;
 import org.springframework.security.web.SecurityFilterChain;
 
 @Configuration
-//@EnableWebFluxSecurity
 public class SecurityConfig {
     @Value("${eureka.username}")
     private String username;
