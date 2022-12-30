@@ -4,25 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="2020ee7c-d479-4ce1-a45f-704eacb134d9" name="Changes" comment="update README">
-      <change afterPath="$PROJECT_DIR$/api-gateway/src/main/java/com/programmingtechie/apigateway/config/SecurityConfig.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/discovery-server/src/main/java/com/programmingtechie/discoveryserver/config/SecurityConfig.java" afterDir="false" />
+    <list default="true" id="2020ee7c-d479-4ce1-a45f-704eacb134d9" name="Changes" comment="api gateway with keycloak done">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/api-gateway/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/api-gateway/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/api-gateway/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/api-gateway/src/main/resources/application.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/api_gateway.png" beforeDir="false" afterPath="$PROJECT_DIR$/image/api_gateway.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/communication-service-discovery.png" beforeDir="false" afterPath="$PROJECT_DIR$/image/communication-service-discovery.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/discovery-server/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/discovery-server/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/discovery-server/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/discovery-server/src/main/resources/application.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/inter-process-communication.png" beforeDir="false" afterPath="$PROJECT_DIR$/image/inter-process-communication.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/inventory-service/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/inventory-service/src/main/resources/application.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/local-copy.png" beforeDir="false" afterPath="$PROJECT_DIR$/image/local-copy.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mircoservice-overview.png" beforeDir="false" afterPath="$PROJECT_DIR$/image/mircoservice-overview.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/order-service/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/order-service/src/main/resources/application.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/product-service/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/product-service/src/main/resources/application.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/service-discovery.png" beforeDir="false" afterPath="$PROJECT_DIR$/image/service-discovery.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/traditional.png" beforeDir="false" afterPath="$PROJECT_DIR$/image/traditional.png" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -39,7 +23,7 @@
   <component name="Git.Settings">
     <option name="RECENT_BRANCH_BY_REPOSITORY">
       <map>
-        <entry key="$PROJECT_DIR$" value="api_gateway" />
+        <entry key="$PROJECT_DIR$" value="master" />
       </map>
     </option>
   </component>
@@ -207,7 +191,21 @@
       <option name="project" value="LOCAL" />
       <updated>1672280227189</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="api gateway with keycloak done">
+      <created>1672375595573</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1672375595573</updated>
+    </task>
+    <task id="LOCAL-00006" summary="api gateway with keycloak done">
+      <created>1672375626178</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1672375626178</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -224,6 +222,7 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="API Gateway done" />
     <MESSAGE value="update README" />
-    <option name="LAST_COMMIT_MESSAGE" value="update README" />
+    <MESSAGE value="api gateway with keycloak done" />
+    <option name="LAST_COMMIT_MESSAGE" value="api gateway with keycloak done" />
   </component>
 </project>
